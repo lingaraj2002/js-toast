@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            padding:10px;
+            color: aliceblue;
+            background-color: blue;
+            border: 0;
+            border-radius: 4px;
+            font-size: 20px;;
+        }
+        .toast{
+            text-align: center;
+            visibility: hidden;
+            font-size:30px;
+            padding: 50px 20px;
+            color:rgb(0, 0, 0);
+            background-color: rgb(214, 170, 255);
+            width:20%;
+            border-radius: 10px;
+            margin: auto;
+            text-transform: capitalize;
+        }
+        .show-msg{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <button onclick="why()" id="btn">Click</button>
+        <div class="toast">
+            <p>toast is here</p>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
